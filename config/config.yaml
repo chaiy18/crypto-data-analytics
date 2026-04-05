@@ -1,0 +1,12 @@
+crypto:
+  coins: "bitcoin,ethereum,solana"
+  currency: "usd"
+
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  aggregated: "data/aggregated"
+
+log:
+  level: "INFO"
+

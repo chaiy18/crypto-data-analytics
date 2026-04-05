@@ -1,0 +1,70 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# =========================
+# 🧪 Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# 🧠 IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🗂 Logs
+# =========================
+*.log
+
+# =========================
+# ⚡ Spark
+# =========================
+spark-warehouse/
+metastore_db/
+*.crc
+_SUCCESS
+
+# =========================
+# 📊 Data
+# =========================
+data/raw/
+data/processed/
+
+# =========================
+# 🔐 Env
+# =========================
+.env
+
+# =========================
+# 🔐 Environment / History
+# =========================
+.env
+**/.bash_history
+
+# Ignore generated crypto parquet data
+data/aggregated/
+*.snappy.parquet
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/*.pid
+airflow/standalone_admin_password.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.venv/
